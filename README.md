@@ -1,5 +1,9 @@
 # hit_counter
-The code for Docker Compose Example, and I use it for Jenkins CI CD as well.
+The application counts the numer of hits in a website.
+
+The global architecture is composed of two layers:
+1. Python Flask web logic.
+2. Redis database.
 
 Disclaimer the code is from Docker Hub Documentation at this link:
 
